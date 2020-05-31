@@ -9,9 +9,9 @@
     --white-color:white;
     --black-color:#313337;
     /*Tipografía*/
-    --normal:12px;
+    --normal:15px;
     /*Espaciado*/
-    --space:10px;
+    --space:5px;
     /*Box shadow*/
     --box:0px 0 2px 1px #e6e5e9;
 }
@@ -63,13 +63,13 @@ nav li a:hover{
 /* ----------------------------Main section ----------------------------------------- */
 
 .main_section {
-    padding: 10%;
+    padding: 3%;
     text-align: center;
     
 }
 /*
 .main_section h1 {
-    font-size: 80px;
+    font-size: 0px;
     color: cadetblue;
 }
 */
@@ -89,8 +89,8 @@ luego agregamos la imagen
 /* ----------------------------products section ----------------------------------------- */
 .products {
     /* debemos ingresar la url para eso colocamos ../*/
-    background-image: url("../images/curve.png");
-    height: 20px; /* aui manipulamos la altura, despues lo cambia a max-height: ;*/
+    background-image: ;
+    height: 2px; /* aui manipulamos la altura, despues lo cambia a max-height: ;*/
     background-size: cover; /*significa que ocupe el tamoño del div que tiene*/
     background-position: center top; /* alineate hacia el centro pero hacia arriba*/
     /*padding: 20px; /*para poder ver la división de los elementos esto lo agregamos al agregar el padding de .product*/
@@ -108,7 +108,7 @@ luego agregamos la imagen
 .product .content{
     background-color: var(--white-color);
     /*modificamos el pading de 20 a 15 para que no se haga muy grande el contenido*/
-    padding: 20px;
+    padding: 5px;
     /*box shadow para remarcar el car*/
     box-shadow: var(--box);
 }
@@ -128,7 +128,7 @@ luego agregamos la imagen
     /*para mostrar el cambio del cursor*/
     cursor: pointer;
     /*cambiar el radio del boton*/
-    border-radius: 3px;
+    border-radius: 5px;
 }
 
 .main_button:hover {
@@ -136,7 +136,7 @@ luego agregamos la imagen
 }
 
 .mid{
-    padding: 5%;
+    padding: 0%;
 }
 
 .middles {
@@ -146,12 +146,12 @@ luego agregamos la imagen
  }
  
  .middle {
-    flex: 0 1 calc(25% - 1em);
+    flex: 0 1 calc(30% - 1em);
     /* box-shadow: var(--box) */
 }
 
 .middle .content{
-    padding: 1.4em;
+    padding: 0.4em;
     text-align: center;
 }
 
@@ -167,7 +167,7 @@ luego agregamos la imagen
 /* ----------------------------Menciones section ----------------------------------------- */
 
 .centered {
-    padding: 5%;
+    padding: 0%;
 }
 
 .centered h1{
@@ -255,13 +255,13 @@ luego agregamos la imagen
 
 footer{
     display: flex;
-    background-color: rgb(48, 45, 45);
+    background-color: rgb(166, 243, 166);
     padding: 1%2%1%0%;
-    color: var(--white-color);
+    color: var(--black-color);
     justify-content: space-between;
 
 }
 
 footer a{
-    color: var(--green-color);
+    color: var(--blue-color);
 }
